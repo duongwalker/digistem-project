@@ -1,0 +1,31 @@
+ul li {
+    display: inline-block;
+    margin: 2% 2%;
+    cursor: pointer;
+    position: relative;
+}
+/* ul li ul.dropdown {
+    display: block;
+    padding: 20% 20%;
+} */
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+ul li a:hover {
+    text-decoration:underline;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+    padding: 20% 20%;
+}
+
