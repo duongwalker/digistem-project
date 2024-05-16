@@ -1,9 +1,0 @@
-.dropdown-menu {
-    position: absolute;
-    top: 100px;
-    right:20px;
-    background-color: #fff;
-    border-radius: var(--border-radius);
-    padding: 10px 20px;
-    width: 200px;
-}
