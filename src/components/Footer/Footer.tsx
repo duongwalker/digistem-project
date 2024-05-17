@@ -1,3 +1,5 @@
+import './Footer.css';
+
 export function Footer() {
   const listItemStyle = {
     paddingTop: '7px',
@@ -46,7 +48,7 @@ export function Footer() {
             </li>
           </ul>
         </div>
-        <div style={{ flex: 1 }}>
+        <div style={{ flex: 0.4 }}>
           <h4 style={h4Style}>Contact:</h4>
           <ul style={{ listStyleType: 'none', padding: 0 }}>
             <li style={listItemStyle}>Kirsi-Maria Rinneheimo - project coordinator</li>
