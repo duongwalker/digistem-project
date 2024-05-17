@@ -51,7 +51,7 @@ export function Footer() {
         <div style={{ flex: 0.4 }}>
           <h4 style={h4Style}>Contact:</h4>
           <ul style={{ listStyleType: 'none', padding: 0 }}>
-            <li style={listItemStyle}>Kirsi-Maria Rinneheimo - project coordinator</li>
+            <li style={listItemStyle}>Kirsi-Maria Rinneheimo</li>
             <li style={listItemStyle}>Email: asdasdsada@asdasda</li>
             <li style={listItemStyle}>Phone: +312312341241</li>
           </ul>
