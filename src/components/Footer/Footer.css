@@ -1,0 +1,29 @@
+footer {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .footer-link {
+    text-decoration: none;
+    position: relative;
+  }
+
+  .footer-link:hover {
+    color: orange;
+  }
+  .footer-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 100%;
+    bottom: -2px;
+    height: 2px;
+    background-color: white;
+    transition: right 0.5s ease-in-out, background-color 0.5s ease;
+  }
+
+  .footer-link:hover::after {
+    right: 0;
+    background-color: orange;
+    color:orange;
+  }

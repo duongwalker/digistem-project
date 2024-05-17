@@ -13,7 +13,7 @@ const Homepage = () => {
     <div
         style={{
           width: "100%",
-          maxHeight: "500px",
+          height: "91vh",
           aspectRatio: "5/2",
           margin: "0 auto",
         }}
