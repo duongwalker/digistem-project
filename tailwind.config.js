@@ -9,6 +9,8 @@ export default {
       fontFamily: {
         'sans': ['Helvetica', 'Arial', 'sans-serif'],
         'helvetica-black': ['HelveticaNeueBlack', 'HelveticaNeue', 'Arial', 'sans-serif'],
+        'helvetica-neue': ['HelveticaNeue', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif'],
       },
     },
   },
