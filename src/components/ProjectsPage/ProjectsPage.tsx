@@ -1,8 +1,15 @@
 import './ProjectsPage.css';
+import banner from '/src/assets/banner.png';
 
 const ProjectsPage = () => {
   return (
+
     <div className="project-container">
+
+      <div className='project-image-container'>
+        <img src={banner} alt='Banner'></img>
+      </div>
+
       <header className="project-header">
         <h1 className="project-title">DigiSTEM</h1>
         <p className="project-intro">

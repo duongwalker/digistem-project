@@ -63,3 +63,13 @@
     border-radius: 25px;
     margin: 40px auto;
 }
+
+.project-image-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project-image-container img {
+    /* max-width: 100%;
+    height: auto; */
+}
