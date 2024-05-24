@@ -4,8 +4,8 @@ import NavItem from '../NavItem/NavItem'
 export function NavBar() {
 
   return (
-    <div className="navbar w-full flex items-center justify-between py-15 px-1 z-auto bg-gray-50 h-[9vh]">
-      <img src={logo} alt='' className='logo cursor-pointer' style={{ width: '30%', maxWidth: '170px' }} />
+    <div className="navbar w-full flex items-center justify-between py-15 px-7% bg-gray-50 ">
+      <img src={logo} alt='' className='logo cursor-pointer' style={{ width: '30%', maxWidth: '170px', padding: '5px' }} />
       <ul className="flex-1 list-none text-right font-helvetica-black ">
         <NavItem text='Home' path='/'/>
         <NavItem text='Projects' dropdownItems={['Our project', 'Our team', 'Erasmus+']} path='projects'/>

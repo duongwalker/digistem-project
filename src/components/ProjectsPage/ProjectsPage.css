@@ -1,5 +1,5 @@
 .project-container {
-    max-width: 60%;
+    max-width: 100%;
     margin: 20px auto;
     padding: 20px 5%;
 }
@@ -52,7 +52,7 @@
 
 .main-steps ul {
     list-style-type: disc;
-    margin-left: 2.5%;
+    margin-left: 5%;
     margin-bottom: 20px;
 }
 
