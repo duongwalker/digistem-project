@@ -109,5 +109,4 @@ const OurTeamPage = () => {
         </div>
     )
 }
-
 export default OurTeamPage
