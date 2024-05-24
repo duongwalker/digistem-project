@@ -11,6 +11,7 @@ const Homepage = () => {
     { url: slide3, alt: "slide three" },
   ]
   return (
+    <div>
     <div className='flex-col'
       style={{
         width: "100%",
@@ -19,7 +20,8 @@ const Homepage = () => {
         margin: "0 auto",
       }}
     >
-      <Slider images={IMAGES} />
+      <Slider images={IMAGES} />    </div>
+
       <div className='font-montserrat font-bold '>
         <div className='ml-14 text-left text-3xl mt-8 '>
           DigiSTEM Promoting Digital Learning in STEM Subjects. This project is a cooperation of four European universites:

@@ -1,4 +1,5 @@
 import './Footer.css';
+import { TAMK, STU, UTCB, PUOM, MISSIONS } from '../../utils/constants'
 
 export function Footer() {
   const listItemStyle = {
@@ -67,6 +68,7 @@ export function Footer() {
         <div style={{ textAlign: 'center', marginTop: '20px', borderTop: '1px solid #fff', paddingTop: '15px', marginBottom: '0px', color: 'orange' }}>
           DigiSTEM 2024
         </div>
+        <div><ul><li>{TAMK}</li></ul></div>
       </footer>
   );
 }
