@@ -20,7 +20,7 @@
 
   .dropdownItem {
     @apply relative;
-  }e
+  }
 
   .dropdownItemText {
     @apply inline-block relative;
