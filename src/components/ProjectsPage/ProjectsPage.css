@@ -1,0 +1,75 @@
+.project-container {
+    max-width: 60%;
+    margin: 20px auto;
+    padding: 20px 5%;
+}
+
+.project-header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.project-intro {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.project-title, 
+.project-description h2, .main-steps h3 {
+    background: -webkit-linear-gradient(orange, purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-steps h3 {
+    margin-top: 40px;
+    font-size: 1.5em;
+    padding-left: 1.5%;
+    font-weight: bold;
+}
+
+.project-title {
+    font-size: 3em;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.project-description h2, 
+.main-steps h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.project-description p, 
+.main-steps p, 
+.scope, 
+.funding {
+    margin: 10px 0;
+    padding-left: 1.5%;
+}
+
+.main-steps ul {
+    list-style-type: disc;
+    margin-left: 2.5%;
+    margin-bottom: 20px;
+}
+
+.project-scope {
+    background-color: #EE8332;
+    color: #fff;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 40px auto;
+}
+
+.project-image-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project-image-container img {
+    /* max-width: 100%;
+    height: auto; */
+}
