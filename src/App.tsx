@@ -1,4 +1,5 @@
 import './App.css'
+import { Footer} from './components/Footer/Footer'
 import { NavBar } from './components/NavBar/NavBar'
 // import { Footer } from './components/Footer/Footer'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -12,17 +13,21 @@ function App() {
   return (
       <BrowserRouter>
         <NavBar />
+        <div>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="projects" element={<ProjectsPage />} />
           <Route path="events" element={<EventsPage />} />
           <Route path="contact" element={<ContactPage />} />
         </Routes>
+        </div>
 
-        {/* <Footer /> */}
+        <div>
+        <Footer />
+</div>
 
       </BrowserRouter>
-  )
+  );
 }
 
 export default App
