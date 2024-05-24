@@ -39,13 +39,13 @@
   }
 
   .navItem:hover::after {
-    @apply bg-orange-500;
+    @apply bg-white;
     transform: scaleX(1);
   }
 
-  .navItem:hover {
+  /* .navItem:hover {
     @apply text-[#446AA2];
-  }
+  } */
 }
 
 ul li::marker {

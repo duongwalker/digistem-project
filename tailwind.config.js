@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      'backgroundImage': {
+        'banner': "url(./src/assets/background-banner.svg)"
+      },
       fontFamily: {
         'sans': ['Helvetica', 'Arial', 'sans-serif'],
         'helvetica-black': ['HelveticaNeueBlack', 'HelveticaNeue', 'Arial', 'sans-serif'],
