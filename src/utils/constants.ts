@@ -5,6 +5,7 @@ export const PUOM = 'Universidad Politécnica de Madrid'
 
 export const MISSIONS = `Our main target is STEM education, specifically for engineering education professionals who teach STEM or other similar subjects. We hope, with this project, we can together increase digital and pedagogical competence of HEI educators and availability of digital resources in STEM academics.\n\n`;
 
+const x = 1;
 
 
 
