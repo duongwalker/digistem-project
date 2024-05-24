@@ -1,30 +1,35 @@
-import { useState } from "react"
-import { ArrowBigLeft, ArrowBigRight, Circle, CircleDot } from "lucide-react"
-import "./slider.css"
+import { useState, useEffect } from "react";
+import { ArrowBigLeft, ArrowBigRight, Circle, CircleDot } from "lucide-react";
+import "./slider.css";
 
 type SliderProps = {
   images: {
-    url: string
-    alt: string
-  }[]
-}
+    url: string;
+    alt: string;
+  }[];
+};
 
 export function Slider({ images }: SliderProps) {
-  const [imageIndex, setImageIndex] = useState(0)
+  const [imageIndex, setImageIndex] = useState(0);
 
   function showNextImage() {
-    setImageIndex(index => {
-      if (index === images.length - 1) return 0
-      return index + 1
-    })
+    setImageIndex((index) => {
+      if (index === images.length - 1) return 0;
+      return index + 1;
+    });
   }
 
   function showPrevImage() {
-    setImageIndex(index => {
-      if (index === 0) return images.length - 1
-      return index - 1
-    })
+    setImageIndex((index) => {
+      if (index === 0) return images.length - 1;
+      return index - 1;
+    });
   }
+
+  useEffect(() => {
+    const interval = setInterval(showNextImage, 4000); // Change image every 3 seconds
+    return () => clearInterval(interval); // Clear interval on component unmount
+  }, []);
 
   return (
     <section
@@ -96,5 +101,5 @@ export function Slider({ images }: SliderProps) {
       </div>
       <div id="after-image-slider-controls" />
     </section>
-  )
+  );
 }

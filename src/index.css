@@ -2,6 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components {
+  .dropdownItemText::after {
+    content: '';
+    @apply absolute left-0 bottom-[-2px] h-[2px] bg-white transition-all duration-500 ease-in-out;
+    right: 100%;
+  }
+
+  .dropdownItem:hover .dropdownItemText::after {
+    @apply right-0 bg-orange-500;
+  }
+
+  .dropdownItem:hover .dropdownItemText {
+    @apply text-[#446AA2];
+  }
+
+  .dropdownItem {
+    @apply relative;
+  }e
+
+  .dropdownItemText {
+    @apply inline-block relative;
+  }
+
+  .navItem {
+    @apply relative inline-block;
+  }
+
+  .navItem::after {
+    content: '';
+    @apply absolute left-0 bottom-0 h-[2px] bg-transparent transition-all duration-500 ease-in-out;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  .navItem:hover::after {
+    @apply bg-orange-500;
+    transform: scaleX(1);
+  }
+
+  .navItem:hover {
+    @apply text-[#446AA2];
+  }
+}
+
+ul li::marker {
+  color: #446AA2;
+  font-size: 1.3em
+
+}
+
+/* App.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 91vh
+}
+
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

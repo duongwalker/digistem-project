@@ -11,6 +11,7 @@
   display: block;
   flex-shrink: 0;
   flex-grow: 0;
+
 }
 
 .img-slider-btn {
@@ -96,7 +97,7 @@
 
 @media not (prefers-reduced-motion) {
   .img-slider-img {
-    transition: translate 300ms ease-in-out;
+    transition: translate 1500ms ease-in-out;
   }
 
   .img-slider-btn:hover > *,

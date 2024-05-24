@@ -1,6 +1,7 @@
 import './App.css'
+import { Footer} from './components/Footer/Footer'
 import { NavBar } from './components/NavBar/NavBar'
-import { Footer } from './components/Footer/Footer'
+// import { Footer } from './components/Footer/Footer'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from './components/Homepage/Homepage'
 import ProjectsPage from './components/ProjectsPage/ProjectsPage'
@@ -11,7 +12,6 @@ import OurTeamPage from './components/OurTeamPage/OurTeamPage';
 function App() {
 
   return (
-
     <BrowserRouter>
       <NavBar />
       <Routes>
@@ -23,8 +23,7 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
-
-  )
+  );
 }
 
 export default App
