@@ -3,7 +3,7 @@ import { TAMK, STU, UTCB, PUOM, MISSIONS } from "../../utils/constants";
 const Homepage = () => {
   return (
     <div>
-      <div className="bg-banner w-full min-h-96">
+      <div className="bg-banner bg-no-repeat bg-cover bg-center w-full min-h-96 ">
         <div className="text-white font-bold font-montserrat ml-60 pt-32">
           <div className="text-5xl">DigiSTEM</div>
           <div className="text-2xl mt-6">Connecting smart minds</div>

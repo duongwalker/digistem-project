@@ -13,7 +13,7 @@ export function NavBar() {
       <img
         src={logo}
         alt=""
-        className="logo cursor-pointer"
+        className="logo cursor-pointer "
         style={{ width: "30%", maxWidth: "170px", padding: "5px" }}
       />
       <ul className="flex-1 list-none text-right font-helvetica-black ">
