@@ -23,7 +23,7 @@ function App() {
         <Route path="ourteam" element={<OurTeamPage />} />
         <Route path='project-meetings' element={<ProjectMeetings />}/>
       </Routes>
-      {/* <Footer /> */}
+      /<Footer />
     </BrowserRouter>
   );
 }
