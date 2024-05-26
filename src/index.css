@@ -10,11 +10,11 @@
   }
 
   .dropdownItem:hover .dropdownItemText::after {
-    @apply right-0 bg-orange-500;
+    @apply right-0 bg-[#9F005D];
   }
 
   .dropdownItem:hover .dropdownItemText {
-    @apply text-[#446AA2];
+    @apply text-black;
   }
 
   .dropdownItem {
