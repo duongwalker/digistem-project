@@ -1,5 +1,5 @@
 .project-container {
-    max-width: 100%;
+    max-width: 80%;
     margin: 20px auto;
     padding: 20px 5%;
 }
@@ -70,6 +70,9 @@
 }
 
 .project-image-container img {
-    /* max-width: 100%;
-    height: auto; */
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+
 }

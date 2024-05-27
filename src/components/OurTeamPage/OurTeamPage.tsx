@@ -17,6 +17,7 @@ const OurTeamPage = () => {
                     <h1>Team Members</h1>
                     <div className="member">
                         <h2>TAMK</h2>
+                        <hr className="rounded"></hr>
                         <div className="profile">
                             <img src={teamphoto} alt="Kirsi-Maria Rinneheimo"></img>
                             <div className="profile-text">
@@ -56,6 +57,51 @@ const OurTeamPage = () => {
                             </div>
                         </div>
                     </div>
+
+                <div className='member'>
+                <h2>UPM</h2>
+                <hr className="rounded"></hr>
+
+                <div className="profile">
+                            <img src={teamphoto} alt="Kirsi-Maria Rinneheimo"></img>
+                            <div className="profile-text">
+                                <h3>Kirsi-Maria Rinneheimo</h3>
+                                <p>M.Sc.</p>
+                                <ul>
+                                    <li>Senior Lecturer of Mathematics</li>
+                                    <li>Over 20 years experience of engineering mathematics' teaching in different engineering disciplines</li>
+                                    <li>Long and extensive experience in working on national and international educational projects as project manager:
+                                        <ul>
+                                            <li>EU funded projects MALog, 2009-2012 (KA3 ICT-505326)</li>
+                                            <li>FutureMath (2015-2018, Erasmus+ KA2 Strategic Partnership)</li>
+                                        </ul>
+                                    </li>
+                                    <li>She has written and contributed to an extensive range of conferences, scientific papers and publications, developed e.g. digital study materials for mathematics studies, lecture notes, web-based learning materials and videos for teaching.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className="profile">
+                            <img src={teamphoto} alt="Kirsi-Maria Rinneheimo"></img>
+                            <div className="profile-text">
+                                <h3>Kirsi-Maria Rinneheimo</h3>
+                                <p>M.Sc.</p>
+                                <ul>
+                                    <li>Senior Lecturer of Mathematics</li>
+                                    <li>Over 20 years experience of engineering mathematics' teaching in different engineering disciplines</li>
+                                    <li>Long and extensive experience in working on national and international educational projects as project manager:
+                                        <ul>
+                                            <li>EU funded projects MALog, 2009-2012 (KA3 ICT-505326)</li>
+                                            <li>FutureMath (2015-2018, Erasmus+ KA2 Strategic Partnership)</li>
+                                        </ul>
+                                    </li>
+                                    <li>She has written and contributed to an extensive range of conferences, scientific papers and publications, developed e.g. digital study materials for mathematics studies, lecture notes, web-based learning materials and videos for teaching.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                </div>
                 </section>
             </main>
 
