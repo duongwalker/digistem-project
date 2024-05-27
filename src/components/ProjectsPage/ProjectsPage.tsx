@@ -3,10 +3,14 @@ import banner from "/src/assets/banner.png";
 
 const ProjectsPage = () => {
   return (
-    <div className="project-container">
-      <div className="project-image-container">
-        <img src={banner} alt="Banner"></img>
+
+    <div>
+
+      <div className='project-image-container'>
+        <img src={banner} alt='Banner'></img>
       </div>
+
+    <div className='project-container'>
 
       <header className="project-header">
         <h1 className="project-title">DigiSTEM</h1>
@@ -81,6 +85,7 @@ const ProjectsPage = () => {
           2021-1-FI01-KA220-HED-000027535.
         </p>
       </footer>
+      </div>
     </div>
   );
 };

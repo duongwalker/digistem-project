@@ -4,28 +4,39 @@ header img {
 }
 
 main {
-  padding: 20px;
+    padding: 20px 5%;
+    font-family: 'Helvetica Neue';
 }
 
 .team-members {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.team-members h1,
-.member h2,
+.team-members h1, .member h2, .profile-text h3 {
+    background: -webkit-linear-gradient(orange, purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 3em;
+}
+.team-members h1 {
+    font-size: 5em;
+}
+
+.member h2 {
+    margin-left: 20px;
+}
+
 .profile-text h3 {
-  background: -webkit-linear-gradient(orange, purple);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-  font-size: 2em;
+    font-size: 1.5em;
 }
 
 .member {
-  margin: 40px 0;
+    margin: 40px 0;
+    text-align: left;
 }
 
 .profile {
@@ -68,5 +79,11 @@ main {
 }
 
 .profile-text ul ul li {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
+
+hr.rounded {
+    border-top: 3px solid #bbb;
+    border-radius: 5px;
+  }
+
