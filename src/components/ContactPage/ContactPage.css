@@ -1,0 +1,69 @@
+.contact-header img {
+  width: 100%;
+  height: 40vh;
+}
+
+.contact-team-members {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-team-members h1,
+.contact-member h2,
+.contact-profile-text h3 {
+  background: -webkit-linear-gradient(orange, purple);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 0px;
+}
+
+.contact-member {
+  margin: 40px 0;
+}
+
+.contact-profile {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.contact-profile img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.contact-profile-text {
+  flex: 1;
+}
+
+.contact-profile-text p {
+  font-style: italic;
+}
+
+.contact-profile-text ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-profile-text ul ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-profile-text ul li {
+  margin-bottom: 10px;
+}
+
+.contact-profile-text ul ul li {
+  margin-bottom: 5px;
+}

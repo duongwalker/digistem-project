@@ -1,21 +1,78 @@
-import logo from '../../assets/logo.png'
-import NavItem from '../NavItem/NavItem'
+import logo from "../../assets/logo.png";
+import NavItem from "../NavItem/NavItem";
+import { useLocation } from "react-router-dom";
 
 export function NavBar() {
-
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
+  const hoverClass = isHomePage ? "home-hover" : "other-hover";
   return (
-    <div className="navbar w-full flex items-center justify-between py-15 px-7% bg-gray-50 ">
-      <img src={logo} alt='' className='logo cursor-pointer' style={{ width: '30%', maxWidth: '170px', padding: '5px' }} />
+    <div
+      className={`navbar w-full flex items-center justify-between ${isHomePage ? "bg-transparent absolute text-white" : ""} px-7% `}
+    >
+      <img
+        src={logo}
+        alt=""
+        className="logo cursor-pointer "
+        style={{ width: "30%", maxWidth: "170px", padding: "5px" }}
+      />
       <ul className="flex-1 list-none text-right font-helvetica-black ">
-        <NavItem text='Home' path='/'/>
-        <NavItem text='Projects' dropdownItems={['Our project', 'Our team', 'Erasmus+']} path='projects'/>
-        <NavItem text='Events' dropdownItems={['Project Meetings', 'Multiplier Events', 'Dissemination Events', 'Learning Teaching & Training Activities']}  path='events'/>
-        <NavItem text='Contact' path='contact'/>
-        <li className='inline-block m-2 cursor-pointer relative font-helvetica font-sans '>
-          <a href='http://vps218.cesvima.upm.es/moodle/'  target='_blank' rel='noopener noreferrer' className='font-bold text-xl block px-3  text-center hover:underline bg-[#446AA2] rounded-full min-w-28 text-white'>Moodle</a>
+        <NavItem text="Home" path="/" additionalClass={hoverClass} />
+        <NavItem
+          text="Projects"
+          dropdownItems={[
+            {
+              text: "Our project",
+              path: ''
+
+            },
+            {
+              text: "Our team",
+              path: ''
+            },
+            {
+              text: "Erasmus+",
+              path: ''
+            }
+          ]}
+          path="projects"
+          additionalClass={hoverClass}
+        />
+        <NavItem
+          text="Events"
+          dropdownItems={[
+            {
+              text: "Project Meetings",
+              path: 'project-meetings'
+            },
+            {
+              text: "Multiplier Events",
+              path: 'multiplier-events'
+            },
+            {
+              text: "Dissemination Events",
+              path: 'events'
+            },
+            {
+              text: "Learning Teaching & Training Activities",
+              path: 'activities'
+            },
+          ]}
+          path="events"
+          additionalClass={hoverClass}
+        />
+        <NavItem text="Contact" path="contact" additionalClass={hoverClass} />
+        <li className="inline-block m-2 cursor-pointer relative font-helvetica font-sans">
+          <a
+            href="http://vps218.cesvima.upm.es/moodle/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`text-xl block px-3 text-center rounded-full min-w-28 ${isHomePage ? "bg-white text-[#EF983E] hover:text-white hover:bg-[#9F005D]" : "bg-[#EF983E] text-white hover:text-white hover:bg-[#9F005D]"} `}
+          >
+            Moodle
+          </a>
         </li>
       </ul>
     </div>
-
-  )
+  );
 }

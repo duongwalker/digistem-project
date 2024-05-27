@@ -1,19 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        banner: "url(./src/assets/background-banner.svg)",
+      },
       fontFamily: {
-        'sans': ['Helvetica', 'Arial', 'sans-serif'],
-        'helvetica-black': ['HelveticaNeueBlack', 'HelveticaNeue', 'Arial', 'sans-serif'],
-        'helvetica-neue': ['HelveticaNeue', 'sans-serif'],
-        'montserrat': ['Montserrat', 'sans-serif'],
+        sans: ["Helvetica", "Arial", "sans-serif"],
+        "helvetica-black": [
+          "HelveticaNeueBlack",
+          "HelveticaNeue",
+          "Arial",
+          "sans-serif",
+        ],
+        "helvetica-neue": ["HelveticaNeue", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },
   plugins: [],
-}
-
+};
