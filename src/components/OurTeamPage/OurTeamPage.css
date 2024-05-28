@@ -58,6 +58,8 @@ main {
 
 .profile-text {
   flex: 1;
+  height: 500px;
+  max-width: 50%;
 }
 
 .profile-text p {

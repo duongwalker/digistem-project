@@ -1,4 +1,4 @@
-import teamphoto from "/src/assets/teamphoto.jpg";
+import teamphoto from "/src/assets/banner.png";
 import "./ContactPage.css";
 
 const ContactPage = () => {

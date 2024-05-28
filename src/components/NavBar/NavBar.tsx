@@ -23,12 +23,12 @@ export function NavBar() {
           dropdownItems={[
             {
               text: "Our project",
-              path: ''
+              path: 'projects'
 
             },
             {
               text: "Our team",
-              path: ''
+              path: 'ourteam'
             },
             {
               text: "Erasmus+",
