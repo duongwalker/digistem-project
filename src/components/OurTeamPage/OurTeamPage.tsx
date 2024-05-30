@@ -5,6 +5,7 @@ import TeamPhotoImm from '/src/assets/teamphotos/imm.jpg';
 import TeamPhotoDv from '/src/assets/teamphotos/dv.jpg';
 import './OurTeamPage.css'
 
+
 const OurTeamPage = () => {
 
     return (

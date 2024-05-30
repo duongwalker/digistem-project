@@ -5,7 +5,7 @@ header img {
 
 main {
     padding: 20px 5%;
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .team-members {
@@ -20,14 +20,15 @@ main {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    font-size: 3em;
 }
+
 .team-members h1 {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .member h2 {
     margin-left: 20px;
+    font-size: 2em;
 }
 
 .profile-text h3 {
@@ -49,8 +50,9 @@ main {
 }
 
 .profile img {
-  width: 300px;
-  height: 380px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
   object-fit: cover;
   border-radius: 10px;
   margin-right: 20px;
@@ -58,7 +60,7 @@ main {
 
 .profile-text {
   flex: 1;
-  height: 500px;
+  /* height: 500px; */
   max-width: 50%;
 }
 
@@ -77,11 +79,7 @@ main {
 }
 
 .profile-text ul li {
-  margin-bottom: 10px;
-}
-
-.profile-text ul ul li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 hr.rounded {
@@ -89,3 +87,43 @@ hr.rounded {
     border-radius: 5px;
   }
 
+
+  @media (max-width: 768px) {
+    .profile {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .profile img {
+      margin: 0 0 20px 0;
+      width: 80%;
+    }
+  
+    .profile-text {
+      max-width: 100%;
+    }
+  
+    .team-members h1 {
+      font-size: 3em;
+    }
+  
+    .member h2 {
+      font-size: 1.5em;
+      margin-left: 0;
+    }
+  }
+
+@media (max-width: 480px) {
+  .team-members h1 {
+    font-size: 2.5em;
+  }
+
+  .member h2 {
+    font-size: 1.2em;
+  }
+
+  .profile-text h3 {
+    font-size: 1.2em;
+  }
+}
