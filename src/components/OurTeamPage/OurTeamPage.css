@@ -14,7 +14,7 @@ main {
     text-align: center;
 }
 
-.team-members h1, .member h2, .profile-text h3 {
+.team-members h1, .member h2, .member h3 {
     background: -webkit-linear-gradient(orange, purple);
     -webkit-background-clip: text;
     background-clip: text;
@@ -24,20 +24,25 @@ main {
 
 .team-members h1 {
     font-size: 4em;
+    margin-bottom: 10px;
 }
 
 .member h2 {
-    margin-left: 20px;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .profile-text h3 {
     font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
 .member {
     margin: 40px 0;
     text-align: left;
+}
+
+.member p {
+  margin-bottom: 20px;
 }
 
 .profile {
@@ -56,30 +61,21 @@ main {
   object-fit: cover;
   border-radius: 10px;
   margin-right: 20px;
+  margin-top: 20px;
 }
 
 .profile-text {
   flex: 1;
   /* height: 500px; */
-  max-width: 50%;
-}
-
-.profile-text p {
-  font-style: italic;
-}
-
-.profile-text ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.profile-text ul ul {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  max-width: 70%;
 }
 
 .profile-text ul li {
-  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.profile-text ul {
+  margin-bottom: 20px;
 }
 
 hr.rounded {
@@ -92,7 +88,7 @@ hr.rounded {
     .profile {
       flex-direction: column;
       align-items: center;
-      text-align: center;
+      text-align: left;
     }
   
     .profile img {
@@ -106,6 +102,10 @@ hr.rounded {
   
     .team-members h1 {
       font-size: 3em;
+    }
+
+    .team-members {
+      max-width: 95%;
     }
   
     .member h2 {
@@ -125,5 +125,13 @@ hr.rounded {
 
   .profile-text h3 {
     font-size: 1.2em;
+  }
+
+  .team-members {
+    max-width: 95%;
+  }
+
+  .team-members p {
+    font-size: 0.9em;
   }
 }
