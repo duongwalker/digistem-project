@@ -22,6 +22,10 @@ main {
     font-weight: bold;
 }
 
+.project-title h1 {
+  font-size: 4em;
+}
+
 .team-members h1 {
     font-size: 4em;
     margin-bottom: 10px;
@@ -84,35 +88,35 @@ hr.rounded {
   }
 
 
-  @media (max-width: 768px) {
-    .profile {
-      flex-direction: column;
-      align-items: center;
-      text-align: left;
-    }
-  
-    .profile img {
-      margin: 0 0 20px 0;
-      width: 80%;
-    }
-  
-    .profile-text {
-      max-width: 100%;
-    }
-  
-    .team-members h1 {
-      font-size: 3em;
-    }
-
-    .team-members {
-      max-width: 95%;
-    }
-  
-    .member h2 {
-      font-size: 1.5em;
-      margin-left: 0;
-    }
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
   }
+
+  .profile img {
+    margin: 0 0 20px 0;
+    width: 80%;
+  }
+
+  .profile-text {
+    max-width: 100%;
+  }
+
+  .team-members h1 {
+    font-size: 3em;
+  }
+
+  .team-members {
+    max-width: 90%;
+  }
+
+  .member h2 {
+    font-size: 1.5em;
+    margin-left: 0;
+  }
+}
 
 @media (max-width: 480px) {
   .team-members h1 {
@@ -128,7 +132,7 @@ hr.rounded {
   }
 
   .team-members {
-    max-width: 95%;
+    max-width: 90%;
   }
 
   .team-members p {
