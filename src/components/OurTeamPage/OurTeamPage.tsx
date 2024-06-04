@@ -2,7 +2,8 @@ import teamphoto from "/src/assets/teamphoto.jpg";
 import "./OurTeamPage.css";
 
 const OurTeamPage = () => {
-  return (
+  /* return (
+
     <div className="our-team-container">
       <header>
         <img src={teamphoto} alt="Tampere University Building"></img>
@@ -84,6 +85,7 @@ const OurTeamPage = () => {
           </div>
         </section>
       </main>
+*/
 
     return (
 
