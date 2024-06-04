@@ -1,13 +1,12 @@
 footer {
-    margin-bottom: 0;
-    padding-bottom: 0;
-
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-  .footer-link {
-    text-decoration: none;
-    position: relative;
-  }
+.footer-link {
+  text-decoration: none;
+  position: relative;
+}
 
 .footer-link:hover {
   background: -webkit-linear-gradient(orange, purple);

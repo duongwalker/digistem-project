@@ -1,21 +1,22 @@
-import './Footer.css';
+import "./Footer.css";
 
 export function Footer() {
   const listItemStyle = {
-    paddingTop: '7px',
+    paddingTop: "7px",
   };
 
   const aboutUsParagraphStyle = {
-    paddingTop: '7px',
-    lineHeight: '1.5',
-    maxWidth: '50ch',
-    width: '100%',
+    paddingTop: "7px",
+    lineHeight: "1.5",
+    maxWidth: "50ch",
+    width: "100%",
   };
   const h4Style = {
     fontSize: "1.2em",
     textDecorationThickness: "1px",
     textUnderlineOffset: "4px",
     fontWeight: "bold",
+
   };
 
 
@@ -23,6 +24,7 @@ export function Footer() {
     <footer
       style={{
         backgroundColor: "#0e1215",
+
         color: "white",
         padding: "1vw",
         paddingLeft: "12vw",
@@ -39,6 +41,7 @@ export function Footer() {
       >
         <div style={{ flex: 1 }}>
           <h4 style = {h4Style} className="h4Style">About us:</h4>
+
           <p style={aboutUsParagraphStyle}>
             The primary purpose of the DigiSTEM project is to improve STEM
             education by utilizing innovative methods and technologies. This
@@ -116,6 +119,7 @@ export function Footer() {
             <li style={{ marginBottom: "10px" }}>&nbsp;</li>
           </ul>
           <h4 style={{ ...h4Style, marginTop: "15px" }} className="h4Style">European Union:</h4>
+
           <ul style={{ listStyleType: "none", padding: 0 }}>
             <li style={listItemStyle}>
               <div className="underline"></div>
@@ -130,6 +134,7 @@ export function Footer() {
             </li>
           </ul>
         </div>
+
       </div>
       <div
         style={{
@@ -142,6 +147,7 @@ export function Footer() {
           fontWeight: "bold"
         }}
         className="gradientText"
+
       >
         DigiSTEM 2024
       </div>
