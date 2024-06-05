@@ -14,7 +14,7 @@ const Homepage = () => {
               rel="noopener noreferrer"
             >
               {" "}
-              Learning STEM subjects on Moodle
+              Learning STEM subjects on MOOC
             </a>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Homepage = () => {
               rel="noopener noreferrer"
               className=""
             >
-              Join us on Moodle
+              Join us on MOOC
             </a>
           </div>
         </div>
