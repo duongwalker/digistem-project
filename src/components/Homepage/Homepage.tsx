@@ -52,7 +52,7 @@ const Homepage = () => {
               rel="noopener noreferrer"
               className=""
             >
-              Join us on MOODLE
+              Join us on Moodle
             </a>
           </div>
         </div>

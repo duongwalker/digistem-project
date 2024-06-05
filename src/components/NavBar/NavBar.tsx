@@ -66,9 +66,9 @@ export function NavBar() {
             href="http://vps218.cesvima.upm.es/moodle/"
             target="_blank"
             rel="noopener noreferrer"
-            className={'flex items-center justify-center text-xl px-3 text-center rounded-full min-w-28 min-h-10 bg-[#EF983E] text-white hover:text-white hover:bg-[#9F005D]'}
+            className={'flex items-center justify-center text-xl px-3 text-center rounded-full min-w-28 min-h-9 bg-[#EF983E] text-white hover:text-white hover:bg-[#9F005D]'}
           >
-            COURSES
+            Courses
           </a>
         </li>
       </ul>
