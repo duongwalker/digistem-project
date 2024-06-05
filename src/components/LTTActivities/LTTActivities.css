@@ -1,0 +1,270 @@
+
+.ltt-contentholder{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.ltt-contentholder h1{
+    margin: 2%;
+    text-align: center;
+    font-size: 5.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgba(159,0,93,1) 25%, rgba(240,150,64,1) 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.ltt-desc{
+    margin: 3%;
+    text-align: left;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.ltt-leftcard{
+    padding: 1%;
+    width: 90%;
+    margin-right: 5%;
+    background-color: #B82375;
+    color: white;
+}
+
+.ltt-left1{
+    width: 50%;
+    margin: 1%;
+    display: inline-block;
+}
+
+.ltt-leftimg{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    padding-bottom: 2%;
+}
+
+.ltt-lefttitle{
+    margin: 2%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.ltt-left2{
+    width: 45%;
+    display: inline-block;
+    margin: 1%;
+}
+
+.ltt-icon, .ltt-leftdatetitle, .ltt-leftlocationtitle{
+    display: inline-block;
+    margin-right: 2%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.ltt-leftdate, .ltt-leftlocation{
+    font-size: 1.5rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin: 4%;
+}
+
+.ltt-leftcontent{
+    margin: 3%;
+    font-size: 1.5rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 3rem;
+}
+
+/* right card design */
+
+
+.ltt-rightcard{
+    padding: 1%;
+    width: 90%;
+    margin-left: 10%;
+    background-color: #EE8332;
+    color: white;
+}
+
+.ltt-right1{
+    width: 50%;
+    margin: 1%;
+    display: inline-block;
+}
+
+.ltt-rightimg{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    padding-bottom: 2%;
+}
+
+.ltt-righttitle{
+    margin: 2%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.ltt-right2{
+    width: 45%;
+    display: inline-block;
+    margin: 1%;
+}
+
+.ltt-icon, .ltt-rightdatetitle, .ltt-rightlocationtitle{
+    display: inline-block;
+    margin-right: 2%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.ltt-rightdate, .ltt-rightlocation{
+    font-size: 1.5rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin: 4%;
+}
+
+.ltt-rightcontent{
+    margin: 3%;
+    font-size: 1.5rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 2.5rem;
+}
+
+.ltt-open{
+    line-height: 2.5rem;
+}
+.ltt-leftcard, .ltt-rightcard{
+    margin-bottom: 3%;
+}
+
+/* 1700PX */
+
+@media (max-width: 1700px){
+
+
+    .ltt-rightimg{
+        height: 500px;
+
+    }
+
+}
+
+/* 1500PX */
+
+@media (max-width: 1500px){
+    .ltt-contentholder h1{
+        font-size: 4.5rem;
+    }
+
+    .ltt-desc{
+        font-size: 1.5rem;
+    }
+
+
+    .ltt-lefttitle, .ltt-righttitle{
+        font-size: 1.8rem;
+    }
+
+    .ltt-leftdate, .ltt-leftlocation, .ltt-rightdate, .ltt-rightlocation{
+        font-size: 1.3rem;
+    }
+
+    .ltt-leftcontent, .ltt-rightcontent{
+        font-size: 1.3rem;
+        line-height: 2.5rem;
+    }
+}
+
+/* 1300PX */
+
+@media (max-width: 1300px){
+    .ltt-contentholder h1{
+        font-size: 4rem;
+    }
+
+    .ltt-desc{
+        font-size: 1.3rem;
+    }
+
+    .ltt-rightimg{
+        height: 500px;
+    }
+
+    .ltt-lefttitle, .ltt-righttitle{
+        font-size: 1.6rem;
+    }
+
+    .ltt-leftdate, .ltt-leftlocation, .ltt-rightdate, .ltt-rightlocation{
+        font-size: 1.2rem;
+    }
+
+    .ltt-leftcontent, .ltt-rightcontent{
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+    }
+}
+
+
+/* 1100PX */
+
+@media (max-width: 1100px){
+    .ltt-contentholder h1{
+        font-size: 3rem;
+    }
+
+    .ltt-leftimg{
+        height: 300px;
+    }
+
+    .ltt-rightimg{
+        height: 430px;
+    }
+
+    .ltt-desc{
+        font-size: 1rem;
+    }
+
+
+    .ltt-lefttitle, .ltt-righttitle{
+        font-size: 1.2rem;
+    }
+
+    .ltt-leftdate, .ltt-leftlocation, .ltt-rightdate, .ltt-rightlocation{
+        font-size: 1.1rem;
+    }
+
+    .ltt-leftcontent, .ltt-rightcontent{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+}
+
+/* 900PX */
+
+@media (max-width: 900px){
+    .ltt-contentholder h1{
+        font-size: 2.8rem;
+    }
+
+    .ltt-leftimg{
+        height: 400px;
+    }
+
+    .ltt-rightimg{
+        height: 500px;
+    }
+
+    .ltt-desc{
+        font-size: 1.2rem;
+    }
+}

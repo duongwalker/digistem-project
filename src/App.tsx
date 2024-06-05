@@ -9,6 +9,8 @@ import EventsPage from "./components/EventsPage/EventsPage";
 import ContactPage from "./components/ContactPage/ContactPage";
 import OurTeamPage from "./components/OurTeamPage/OurTeamPage";
 import { ProjectMeetings } from "./components/ProjectMeetings/ProjectMeetings";
+import { MultiplierEvents } from "./components/MultiplierEvents/MultiplierEvents";
+import { LTTActivities } from "./components/LTTActivities/LTTActivities";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path="contact" element={<ContactPage />} />
         <Route path="ourteam" element={<OurTeamPage />} />
         <Route path="project-meetings" element={<ProjectMeetings />} />
+        <Route path="multiplier-events" element={<MultiplierEvents />} />
+        <Route path="activities" element={<LTTActivities />} />
       </Routes>
       /<Footer />
     </BrowserRouter>
