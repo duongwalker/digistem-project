@@ -19,11 +19,11 @@ export function NavBar() {
       <ul className="flex-1 list-none text-right font-helvetica-black ">
         <NavItem text="Home" path="/" additionalClass={hoverClass} />
         <NavItem
-          text="Projects"
+          text="Project"
           dropdownItems={[
             {
               text: "Our project",
-              path: 'projects'
+              path: 'project'
 
             },
             {
@@ -35,7 +35,7 @@ export function NavBar() {
               path: ''
             }
           ]}
-          path="projects"
+          path="project"
           additionalClass={hoverClass}
         />
         <NavItem

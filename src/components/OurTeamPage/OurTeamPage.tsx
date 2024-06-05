@@ -14,9 +14,9 @@ const teamMembers = [
         additionalMembers: <ul>
         <h3>Team members</h3>
         <li>Hanna Kinnari-Korpela</li>
-        <li>Hanna Teras</li>
-        <li>Jaana Hannikainen</li>
-        <li>Laura Ortiz-Martín</li>
+        <li>Hanna Teräs</li>
+        <li>Jaana Hännikainen</li>
+        <li>Leena Katto</li>
         <li>Marianna Leikomaa</li>
         <li>Mikko Ukonaho</li>
         <li>Noora Erkkila</li>
@@ -64,7 +64,7 @@ const teamMembers = [
         <li>Daniela Richtáriková</li>
         <li>Jana Gabkova</li>
         <li>Jozef Leja</li>
-        <li>Leena Katto</li>
+        <li>Laura Ortiz-Martín</li>
         <li>Peter Letavaj</li>
     </ul>
     },
