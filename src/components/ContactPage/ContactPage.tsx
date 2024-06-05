@@ -1,6 +1,5 @@
 import teamphoto from "/src/assets/banner.png";
 import tamkphoto from "/src/assets/teamphoto.jpg";
-
 import "./ContactPage.css";
 
 const ContactPage = () => {

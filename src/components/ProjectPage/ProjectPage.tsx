@@ -1,4 +1,4 @@
-import "./ProjectsPage.css";
+import "./ProjectPage.css";
 import banner from "/src/assets/banner.png";
 
 const ProjectsPage = () => {
