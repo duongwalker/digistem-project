@@ -3,7 +3,7 @@ import DropDownItem from "../DropDownItem/DropDownItem";
 import { Link } from "react-router-dom";
 interface NavItemProps {
   text: string;
-  path: string;
+  path?: string;
   dropdownItems?:  { text: string; path: string }[];
   additionalClass: string;
 }
@@ -16,7 +16,7 @@ const NavItem: React.FC<NavItemProps> = ({
 }) => {
   return (
     <>
-      {!dropdownItems && (
+      {!dropdownItems && path && (
         <Link to={path}>
           <li
             className={`inline-block m-2 cursor-pointer relative font-helvetica font-sans ${additionalClass}`}
@@ -27,12 +27,12 @@ const NavItem: React.FC<NavItemProps> = ({
           </li>
         </Link>
       )}
-      {dropdownItems && (
+      {dropdownItems && !path && (
         <li
           className={`inline-block m-2 cursor-pointer relative font-helvetica font-sans group ${additionalClass}`}
         >
           <a className="navItem text-xl block px-5 py-4 text-center">
-            <Link to={path}>{text}</Link>
+           {text}
           </a>
           <ul className="dropdown w-full min-w-32 absolute bg-gray-50 z-50 text-left hidden group-hover:block text-black">
             {dropdownItems.map((item) => (
