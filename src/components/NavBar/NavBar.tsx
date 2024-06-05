@@ -1,6 +1,7 @@
 import logo from "../../assets/logo.png";
 import NavItem from "../NavItem/NavItem";
 import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export function NavBar() {
   const location = useLocation();
@@ -10,12 +11,16 @@ export function NavBar() {
     <div
       className={`navbar w-full flex items-center justify-between ${isHomePage ? "bg-transparent absolute text-white" : ""} px-7% `}
     >
-      <img
-        src={logo}
-        alt=""
-        className="logo cursor-pointer "
-        style={{ width: "30%", maxWidth: "170px", padding: "5px" }}
-      />
+      <div style={{ width: "30%", maxWidth: "170px", padding: "5px" }}>
+        <Link to={'/'}>
+          <img
+            src={logo}
+            alt=""
+            className="logo cursor-pointer "
+
+          />
+        </Link>
+      </div>
       <ul className="flex-1 list-none text-right font-helvetica-black ">
         <NavItem text="Home" path="/" additionalClass={hoverClass} />
         <NavItem
@@ -58,7 +63,7 @@ export function NavBar() {
               path: 'activities'
             },
           ]}
-          path="events"
+          
           additionalClass={hoverClass}
         />
         <NavItem text="Contact" path="contact" additionalClass={hoverClass} />
@@ -69,7 +74,7 @@ export function NavBar() {
             rel="noopener noreferrer"
             className={`text-xl block px-3 text-center rounded-full min-w-28 ${isHomePage ? "bg-white text-[#EF983E] hover:text-white hover:bg-[#9F005D]" : "bg-[#EF983E] text-white hover:text-white hover:bg-[#9F005D]"} `}
           >
-            Moodle
+            MOOC
           </a>
         </li>
       </ul>
