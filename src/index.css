@@ -37,12 +37,8 @@
     transform-origin: left;
   }
 
-  .home-hover :hover::after {
-    @apply bg-white;
-    transform: scaleX(1);
-  }
 
-  .other-hover :hover::after {
+  .nav-hover :hover::after {
     @apply bg-black;
     transform: scaleX(1);
   }
