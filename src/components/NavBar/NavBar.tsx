@@ -40,7 +40,6 @@ export function NavBar() {
               path: ''
             }
           ]}
-          path="project"
           additionalClass={hoverClass}
         />
         <NavItem
