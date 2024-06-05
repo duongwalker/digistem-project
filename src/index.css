@@ -39,7 +39,7 @@
 
 
   .nav-hover :hover::after {
-    @apply bg-black;
+    @apply bg-[#9F005D];
     transform: scaleX(1);
   }
 }
