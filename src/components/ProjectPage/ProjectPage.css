@@ -32,7 +32,7 @@
 }
 
 .project-title {
-  font-size: 3em;
+  font-size: 5em;
   font-weight: 800;
   margin-bottom: 40px;
 }
@@ -76,4 +76,56 @@
     height: auto;
     object-fit: contain;
 
+}
+
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
+  .profile img {
+    margin: 0 0 20px 0;
+    width: 80%;
+  }
+
+  .profile-text {
+    max-width: 100%;
+  }
+
+  .team-members h1 {
+    font-size: 3em;
+  }
+
+  .team-members {
+    max-width: 90%;
+  }
+
+  .member h2 {
+    font-size: 1.5em;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-members h1 {
+    font-size: 2.5em;
+  }
+
+  .member h2 {
+    font-size: 1.2em;
+  }
+
+  .profile-text h3 {
+    font-size: 1.2em;
+  }
+
+  .team-members {
+    max-width: 90%;
+  }
+
+  .team-members p {
+    font-size: 0.9em;
+  }
 }
