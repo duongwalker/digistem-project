@@ -29,7 +29,7 @@ export function NavBar() {
             },
             {
               text: "Our team",
-              path: ''
+              path: 'ourteam'
             },
             {
               text: "Erasmus+",
