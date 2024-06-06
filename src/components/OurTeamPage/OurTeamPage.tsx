@@ -72,7 +72,6 @@ const teamMembers = [
 ]
 
 const OurTeamPage = () => {
-
     return (
 
         <div className="our-team-container">
@@ -101,7 +100,9 @@ const OurTeamPage = () => {
                         ))}
                 </section>
             </main>
+
         </div>
     )
 }
 export default OurTeamPage
+

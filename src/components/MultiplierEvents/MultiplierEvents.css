@@ -1,0 +1,254 @@
+
+.gradient-text {
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgba(159,0,93,1) 0%, rgba(240,150,64,1) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.me-contentholder{
+    margin-top: 5%;
+}
+
+.me-contentholder h1{
+    text-align: center;
+    font-size: 5.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgba(159,0,93,1) 25%, rgba(240,150,64,1) 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.me-udln1{
+    border: 2px solid #000;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.me-left{
+    padding: 1%;
+    width: 95%;
+    margin-left: 5%;
+}
+
+.me-left1{
+    border-right: 1px solid #000;
+    width: 15%;
+    margin: 1%;
+    display: inline-block;
+}
+
+.me-left-date{
+    text-align: center;
+    width: 80%;
+}
+
+.me-left2{
+    width: 80%;
+    margin: 1%;
+    display: inline-block;
+}
+
+.me-left-title{
+    text-align: left;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.me-left-link{
+    margin-top: 2%;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.me-left-link a{
+    text-decoration: underline;
+    color: #F09640;
+}
+
+.me-left-link a:hover{
+    color:#9F005D ;
+}
+
+.me-left-link a:visited{
+    color: #5b5b5b;
+}
+
+.me-left-line{
+    border-top: 3px solid #000;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+/* RIGHT SIDE */
+
+.me-right{
+    padding: 1%;
+    width: 95%;
+    margin-left: 5%;
+}
+
+.me-right1{
+    border-left: 1px solid #000;
+    width: 15%;
+    margin: 1%;
+    display: inline-block;
+}
+
+.me-right-date{
+    text-align: center;
+    width: 80%;
+    margin: 10px;
+}
+
+.me-right2{
+    width: 80%;
+    margin: 1%;
+    display: inline-block;
+}
+
+.me-right-title{
+    text-align: right;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.me-right-link{
+    margin-top: 2%;
+    text-align: right;
+    font-size: 1.5rem;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.me-right-link a{
+    text-decoration: underline;
+    color: #9F005D;
+}
+
+.me-right-link a:hover{
+    color: #F09640;
+}
+
+.me-right-link a:visited{
+    color: #5b5b5b;
+}
+
+.me-right-line{
+    border-top: 3px solid #000;
+    width: 100%;
+    margin-left: -10%;
+    margin-top: 2%;
+}
+
+/* 1300PX */
+
+@media (max-width: 1300px) {
+    .me-contentholder h1{
+        font-size: 4.5rem;
+    }
+
+    .me-left-title, .me-right-title{
+        font-size: 2.2rem;
+    }
+
+    .me-left-link, .me-right-link{
+        font-size: 1.3rem;
+    }
+
+
+    .gradient-text{
+        font-size: 3rem;
+    }
+}
+
+/* 1000PX */
+
+@media (max-width: 1000px) {
+    .me-contentholder h1{
+        font-size: 3.8rem;
+    }
+
+    .me-left-title, .me-right-title{
+        font-size: 1.5rem;
+    }
+
+    .me-left-link, .me-right-link{
+        font-size: 1.1rem;
+    }
+
+    .gradient-text{
+        font-size: 2.2rem;
+    }
+}
+
+/* 800PX */
+
+@media (max-width: 800px) {
+    .me-contentholder h1{
+        font-size: 3.5rem;
+    }
+
+    .me-left-title, .me-right-title{
+        font-size: 1.3rem;
+    }
+
+    .me-left-link, .me-right-link{
+        font-size: 1rem;
+    }
+
+    .gradient-text{
+        font-size: 1.8rem;
+    }
+}
+
+/* 600PX */
+
+@media (max-width: 600px) {
+    .me-contentholder h1{
+        font-size: 3rem;
+    }
+
+    .me-left-title, .me-right-title{
+        font-size: 1.1rem;
+    }
+
+    .me-left-link, .me-right-link{
+        font-size: 0.9rem;
+    }
+
+    .gradient-text{
+        font-size: 1.5rem;
+    }
+}
+
+/* 400PX */
+
+@media (max-width: 400px) {
+    .me-contentholder h1{
+        font-size: 1.8rem;
+    }
+
+    .me-left-title, .me-right-title{
+        font-size: 1rem;
+    }
+
+    .me-left-link, .me-right-link{
+        font-size: 0.5rem;
+    }
+
+    .gradient-text{
+        font-size: 1rem;
+    }
+}
