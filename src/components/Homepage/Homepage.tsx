@@ -1,5 +1,5 @@
 import { TAMK, STU, UTCB, PUOM, MISSIONS } from "../../utils/constants";
-
+import { homepage_desc1 } from "../../utils/constants";
 const Homepage = () => {
   return (
     <div className="mt-2">
@@ -19,6 +19,20 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+
+      <div className="bg-[#F6F6F8] ml-10 mr-10 pl-4 min-h-96 mb-14 rounded-2xl mt-10">
+        <div className="font-montserrat text-4xl font-bold text-[#EE8332] pt-4 mission underline">
+          Introduction
+        </div>
+        <div className="pt-8 pl-10 text-xl text-justify pr-10">
+          <div className="font-helvetica-neue" dangerouslySetInnerHTML={{ __html: homepage_desc1 }}></div>
+        </div>
+
+      </div>
+
+
+
+
       <div className="font-montserrat font-bold ">
         <div className="ml-14 text-left text-3xl mt-8 ">
           DigiSTEM Promoting Digital Learning in STEM Subjects. This project is
@@ -33,19 +47,19 @@ const Homepage = () => {
         </ul>
       </div>
 
-      <div className="bg-[#F6F6F8] ml-10 mr-10 pl-4 min-h-96 mb-24 rounded-2xl">
+      <div className="bg-[#F6F6F8] ml-10 mr-10 pl-4 min-h-96 mb-24 rounded-2xl pb-1">
         <div className="font-montserrat text-4xl font-bold text-[#EE8332] pt-4 mission underline">
           Our mission
         </div>
-        <div className="pt-8 pl-10 text-xl italic pr-10">
-          <div className="font-helvetica-neue ">{MISSIONS}</div>
+        <div className="pt-8 pl-10 text-xl text-justify pr-10">
+          <div className="font-helvetica-neue " dangerouslySetInnerHTML={{ __html: MISSIONS }}></div>
 
           <div className="font-helvetica-neue pt-2">
             If you want to be part of it ...
           </div>
         </div>
-        <div className="group font-helvetica-neue mt-14 w-full text-center text-xl font-bold max-w-fit rounded-full ml-auto mr-auto bg-gradient-to-r from-[#9F005D] via-[#C13F51] to-[#F09640]">
-          <div className=" flex items-center justify-center min-w-64 h-14 px-10 py-1 w-56 rounded-full text-white group-hover:bg-[#9F005D] ">
+        <div className="group font-helvetica-neue mt-14 w-full text-center text-xl font-bold max-w-fit rounded-full ml-auto mr-auto bg-gradient-to-r from-[#9F005D] via-[#C13F51] to-[#F09640] mb-10">
+          <div className=" flex items-center justify-center min-w-64 h-14 px-10 py-1 w-56 rounded-full text-white group-hover:bg-[#9F005D]">
             <a
               href="http://vps218.cesvima.upm.es/moodle/"
               target="_blank"

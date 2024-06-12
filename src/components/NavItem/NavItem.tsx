@@ -18,7 +18,7 @@ const NavItem: React.FC<NavItemProps> = ({
       {!dropdownItems && path && (
         <Link to={path}>
           <li
-            className={'inline-block m-2 cursor-pointer relative font-helvetica font-sans nav-hover'}
+            className={'inline-block m-2 cursor-pointer relative font-montserrat nav-hover'}
           >
             <a className="navItem text-xl block px-5 py-4 text-center ">
               {text}
@@ -28,7 +28,7 @@ const NavItem: React.FC<NavItemProps> = ({
       )}
       {dropdownItems && !path && (
         <li
-          className={'inline-block m-2 cursor-pointer relative font-helvetica font-sans group nav-hover'}
+          className={'inline-block m-2 cursor-pointer relative font-montserrat group nav-hover'}
         >
           <a className="navItem text-xl block px-5 py-4 text-center">
             {text}
