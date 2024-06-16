@@ -28,7 +28,7 @@ function App() {
         <Route path="multiplier-events" element={<MultiplierEvents />} />
         <Route path="activities" element={<LTTActivities />} />
       </Routes>
-      /<Footer />
+      <Footer />
     </BrowserRouter>
   );
 }
