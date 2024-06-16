@@ -73,7 +73,7 @@ export const MultiplierEvents = () => {
             <br />
             <div className="me-left">
                 <div className="me-left1">
-                    <div className="me-left-date gradient-text">March 2023</div>
+                    <div className="me-left-date gradient-text">Mar 2023</div>
                 </div>
 
                 <div className="me-left2">

@@ -67,3 +67,17 @@
 .contact-profile-text ul ul li {
   margin-bottom: 5px;
 }
+
+@media (max-width: 800px) {
+  .contact-profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-profile img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
