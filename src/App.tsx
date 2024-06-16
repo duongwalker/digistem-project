@@ -10,11 +10,14 @@ import OurTeamPage from "./components/OurTeamPage/OurTeamPage";
 import { ProjectMeetings } from "./components/ProjectMeetings/ProjectMeetings";
 import { MultiplierEvents } from "./components/MultiplierEvents/MultiplierEvents";
 import { LTTActivities } from "./components/LTTActivities/LTTActivities";
+import TestComponent from "./components/TestComponent";
+import { NavBar2 } from "./components/NavBar/NavBar2";
 
 function App() {
   return (
+    // <TestComponent />
     <BrowserRouter>
-      <NavBar />
+      <NavBar2 />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="projects" element={<ProjectPage />} />
@@ -25,7 +28,7 @@ function App() {
         <Route path="multiplier-events" element={<MultiplierEvents />} />
         <Route path="activities" element={<LTTActivities />} />
       </Routes>
-      /<Footer />
+      <Footer />
     </BrowserRouter>
   );
 }

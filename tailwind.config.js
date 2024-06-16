@@ -14,7 +14,7 @@ export default {
           "Arial",
           "sans-serif",
         ],
-        "helvetica-neue": ["HelveticaNeue", "sans-serif"],
+        helvetica_neue: ["HelveticaNeue", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
     },
