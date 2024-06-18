@@ -27,6 +27,10 @@ function App() {
         <Route path="project-meetings" element={<ProjectMeetings />} />
         <Route path="multiplier-events" element={<MultiplierEvents />} />
         <Route path="activities" element={<LTTActivities />} />
+        <Route path="erasmus" Component={() => {
+          window.location.href = 'https://erasmus-plus.ec.europa.eu/';
+          return null;
+        }} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -4,7 +4,7 @@ import calendar from "../../assets/calendar-icon.svg";
 import location from "../../assets/location-icon.svg";
 import line from "../../assets/line.svg";
 
-import { sixth_meeting_desc } from "../../utils/constants";
+import { SIXTH_MEETING_DESC} from "../../utils/constants";
 export const ProjectMeetings = () => {
   return (
     <div>
@@ -34,7 +34,7 @@ export const ProjectMeetings = () => {
               <div className="ml-4 mt-2">Bucharest, Romania</div>
             </div>
             <div className="desc text-justify mt-4 mr-5">
-              {sixth_meeting_desc}
+              {SIXTH_MEETING_DESC}
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@ export const ProjectMeetings = () => {
               <div className="ml-4 mt-2">Bratislava, Slovakia</div>
             </div>
             <div className="desc text-justify mt-4 mr-5">
-              {sixth_meeting_desc}
+              {SIXTH_MEETING_DESC}
             </div>
           </div>
           <div className="flex-col min-w-96 mr-12">
@@ -66,7 +66,7 @@ export const ProjectMeetings = () => {
 
       <div className="flex-col justify-self-center">
         <div className="text-center text-5xl font-bold font-montserrat pt-6 pb-6 text-transparent bg-clip-text bg-gradient-to-r from-[#9F005D] via-[#C13F51] to-[#F09640]">
-          Other Meetings
+          Previous Meetings
         </div>
         <img src={line} className="mx-auto"></img>
         <div className="flex justify-center">
