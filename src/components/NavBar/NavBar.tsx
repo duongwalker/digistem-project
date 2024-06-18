@@ -58,7 +58,7 @@ export function NavBar() {
               },
               {
                 text: "Erasmus+",
-                path: ''
+                path: 'erasmus'
               }
             ]}
 

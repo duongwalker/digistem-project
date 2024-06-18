@@ -114,7 +114,8 @@ export function Footer() {
           <h4 style={h4Style} className="h4Style">Contact:</h4>
           <ul style={{ listStyleType: "none", padding: 0 }}>
             <li style={listItemStyle}>TAMK</li>
-            <li style={listItemStyle}>Email: tamk@tuni.fi</li>
+            <li style={listItemStyle}>Kirsi-Maria Rinneheimo</li>
+            <li style={listItemStyle}>Email: firstname.lastname@tuni.fi</li>
             <li style={listItemStyle}>Phone: +358 (0)294 5222</li>
             <li style={{ marginBottom: "10px" }}>&nbsp;</li>
           </ul>
