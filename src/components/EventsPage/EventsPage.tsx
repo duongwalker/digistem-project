@@ -64,6 +64,15 @@ const EventsPage: React.FC = () => {
             <div className="me-intro">Information about the project main goals and aims has been continuously presented at many events related to STEM education at the European Universities. Project team members inform consistently the community of STEM teachers in their countries about current achievements. Team strives to spread relevant information about the free MOOC platform developed as the main project result. MOOC will be available free to all STEM teachers interested in getting new ideas on how to improve own teaching practise and skills with use of digital technologies in STEM education. </div>
 
             <br />
+
+            <RightCard
+              date="  Oct 2024"
+              title="The DigiSTEM International Conference: Innovating Education through Digital Transformation"
+              link="https://dmi.utcb.ro/iedt/"
+              text="The conference is held in the city of Bucharest (Romania). The conference is organized by Technical University of Civil Engineering Bucharest"></RightCard>
+
+            <br />
+
             <LeftCard
               date="July 1-3, 2024"
               title="Edulearn2024 "
