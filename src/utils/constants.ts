@@ -19,7 +19,7 @@ export const COURSES_JOINING = {
   fi: "Liity kursseillemme",
   es: "Únete a nuestros cursos",
   ro: "Alăturați-vă cursurilor noastre",
-  sk: "Únete a nuestros cursos"
+  sk: "Zapojte sa do našich kurzov"
 }
 
 export const PARTNER_DESC = {
