@@ -1,6 +1,5 @@
 import "./App.css";
 import { Footer } from "./components/Footer/Footer";
-import { NavBar } from "./components/NavBar/NavBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./components/Homepage/Homepage";
 import ProjectPage from "./components/ProjectPage/ProjectPage";
@@ -10,7 +9,6 @@ import OurTeamPage from "./components/OurTeamPage/OurTeamPage";
 import { ProjectMeetings } from "./components/ProjectMeetings/ProjectMeetings";
 import { MultiplierEvents } from "./components/MultiplierEvents/MultiplierEvents";
 import { LTTActivities } from "./components/LTTActivities/LTTActivities";
-import TestComponent from "./components/TestComponent";
 import { NavBar2 } from "./components/NavBar/NavBar2";
 
 function App() {
