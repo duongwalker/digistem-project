@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        banner: "url(./src/assets/background-banner.svg)",
+        banner: "url(./src/assets/background_banner.svg)",
       },
       fontFamily: {
         sans: ["Helvetica", "Arial", "sans-serif"],
