@@ -1,4 +1,5 @@
 import "./Footer.css";
+import funded_by_EU from '../../assets/funded_by_EU.png'
 
 export function Footer() {
   const listItemStyle = {
@@ -50,7 +51,7 @@ export function Footer() {
             activities.
           </p>
           <img
-        src="/src/assets/funded-by-EU.png"
+        src={funded_by_EU}
         alt="Description of image"
         style={{
           display: "block",
