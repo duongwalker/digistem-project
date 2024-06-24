@@ -50,7 +50,7 @@ export function Footer() {
             activities.
           </p>
           <img
-        src="/src/assets/EN_FundedbytheEU_RGB_WHITE Outline.png"
+        src="/src/assets/funded-by-EU.png"
         alt="Description of image"
         style={{
           display: "block",
