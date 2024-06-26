@@ -11,6 +11,23 @@ export const MultiplierEvents = () => {
             <div className="me-udln1"></div>
 
             <br />
+
+            <div className="me-right">
+                <div className="me-right2">
+                    <div className="me-right-title">The DigiSTEM International Conference: Innovating Education through Digital Transformation</div>
+                    <div className="me-right-link">
+                        <a href="https://dmi.utcb.ro/iedt/">The conference is held in the city of Bucharest (Romania). The conference is organized by Technical University of Civil Engineering Bucharest</a>
+                    </div>
+                </div>
+
+                <div className="me-right1">
+                    <div className="me-right-date gradient-text">Oct 2024</div>
+                </div>
+
+                <div className="me-right-line"></div>
+            </div>
+
+            <br />
             <div className="me-left">
                 <div className="me-left1">
                     <div className="me-left-date gradient-text">April 2022</div>

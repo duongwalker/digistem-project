@@ -256,27 +256,31 @@
 
 @media (max-width: 600px) {
     .me-contentholder h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .me-intro{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     .me-left-title, .me-right-title{
-        font-size: 1.1rem;
-    }
-
-    .me-left-link, .me-right-link{
         font-size: 0.9rem;
     }
 
-    .me-left-text, .me-right-text{
+    .me-left-link, .me-right-link{
         font-size: 0.7rem;
     }
 
+    .me-left-text, .me-right-text{
+        font-size: 0.6rem;
+    }
+
     .gradient-text{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+    }
+
+    .me-udln1, .me-left-line, .me-right-line{
+        border: 1px solid #000;
     }
 }
 
@@ -284,22 +288,30 @@
 
 @media (max-width: 400px) {
     .me-contentholder h1{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .me-intro{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
 
     .me-left-title, .me-right-title{
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
     .me-left-link, .me-right-link{
         font-size: 0.5rem;
     }
 
+    .me-left-text, .me-right-text{
+        font-size: 0.5rem;
+    }
+
     .gradient-text{
-        font-size: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .me-udln1, .me-left-line, .me-right-line{
+        border: 0.7px solid #000;
     }
 }

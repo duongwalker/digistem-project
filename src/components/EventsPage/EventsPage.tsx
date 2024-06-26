@@ -65,14 +65,6 @@ const EventsPage: React.FC = () => {
 
             <br />
 
-            <RightCard
-              date="  Oct 2024"
-              title="The DigiSTEM International Conference: Innovating Education through Digital Transformation"
-              link="https://dmi.utcb.ro/iedt/"
-              text="The conference is held in the city of Bucharest (Romania). The conference is organized by Technical University of Civil Engineering Bucharest"></RightCard>
-
-            <br />
-
             <LeftCard
               date="July 1-3, 2024"
               title="Edulearn2024 "

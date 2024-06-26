@@ -62,6 +62,7 @@ export const LTTActivities = () => {
                     </div>
                 </div>
 
+                <br />
 
                 <div className="ltt-leftcard">
                     <div className="ltt-left1">
