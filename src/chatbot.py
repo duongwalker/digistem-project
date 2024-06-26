@@ -57,10 +57,10 @@ def select_best_context(question):
             best_context = context
             best_score = score
 
-    # print out all scores
-    for context, score in scores.items():
-        print(f"Context: {context}")
-        print(f"Score: {score}\n")
+    # print out all scores for checking purposes
+    #for context, score in scores.items():
+    #    print(f"Context: {context}")
+    #    print(f"Score: {score}\n")
     if(best_score>5):
         best_context= best_context
     else:
