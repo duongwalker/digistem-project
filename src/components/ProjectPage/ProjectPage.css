@@ -108,7 +108,36 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 550px) {
+
+  .project-title {
+    font-size: 3em;
+  }
+
+  .project-intro {
+    font-size: 1em;
+  }
+
+  .project-description h2 {
+    font-size: 2em;
+  }
+
+  .project-description p {
+    font-size: 0.9em;
+  }
+
+  .main-steps h3 {
+    font-size: 1.5em;
+  }
+
+  .main-steps ul li {
+    font-size: 1em;
+  }
+
+  .project-scope {
+    font-size: 1em;
+  }
+
   .team-members h1 {
     font-size: 2.5em;
   }
@@ -126,6 +155,37 @@
   }
 
   .team-members p {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .project-title {
+    font-size: 2em;
+  }
+
+  .project-intro {
+    font-size: 0.7em;
+  }
+
+  .project-description h2{
+    font-size: 1.5em;
+  }
+
+  .project-description p {
+    font-size: 0.9em;
+  }
+
+  .main-steps h3 {
+    font-size: 1.2em;
+  }
+
+  .main-steps ul li {
+    font-size: 1em;
+  }
+
+  .project-scope {
     font-size: 0.9em;
   }
 }
