@@ -1,0 +1,86 @@
+
+The Teaching STEM Subjects digitally is a course that is specifically designed to enhance the skills and knowledge of STEM teachers, lecturers, and professors in using digital tools and resources. It is a self-study course.
+
+The Teaching STEM Subjects digitally course consists of micro modules about the following topics: Using Technology in Teaching and Learning, Learning Environments for STEM Teaching, Top Tools for Learning and Teaching, Videos in Teaching and Learning, Learning Analytics, AI Tools, STACK, Mathematicas Software, Geogebra, Latex, Mathematica Wolfram.
+
+All modules in the Teaching STEM Subjects digitally as well as the Pedagogy for Teaching STEM Subjects digitally courses are independent from each other, so you may choose to complete as many as you wish or all of them - choose the topics you find interesting and useful to you, personally!
+
+Upon completion of the entire Teaching STEM Subjects digitally course, you will be awarded a badge - a digital certificate of competence.
+
+The using Technology in Teaching and Learning section focuses on: What is TPACK? What to take into account of when integrating technology in teaching/learning.
+
+The using Technology in Teaching and Learning section consists of familiarizing yourself with the concept of TPACK. Then, checking out the resources under the link Digital Pedagogy - the link leads to a larger site, which has a lot of good information about what to take into account when designing your education.
+
+The Discover Dynamic Learning Environments for STEM Education section focuses on shat learning environments are used in STEM teaching as well as examples of good tools for STEM teaching
+
+The Explore Cutting Edge Tools for Enhanced Learning Experiences section focuses on what tools STEM teachers have found useful in their teaching, Enhancing Interactive Learning - A Comprehensive Overview of Educational Tools as well as giving an example: How to use Socrative? A Tool for Teachers
+
+The Explore Cutting Edge Tools for Enhanced Learning Experiences section will go over reflecting on what tools you already use. What could be added? How would, for example, using Socrative, engage your students even better? Could the use of tools mentioned in this section bring game-like elements into your teaching?
+
+The Harness the Impact of Videos section focuses on different ways to produce educational videos as well as how to utilize videos in educational purposes.
+
+The Harness the Impact of Videos section consists of examples of already made videos, but also encourages you to create your own! There are many quite simple tools for creating good quality educational videos for STEM subjects, so here you are incouraged to try out a few of them and see what works for your needs!
+
+The Navigate the World of Learning Analytics section focuses on what learning analytics are as well as how learning analytics can be used to prevent students from dropping out of courses
+
+The Navigate the World of Learning Analytics section consists of finding out what the learning analytics possibilities for the learning environment you are using are, and how could you utilize them to help students progress with their courses - and ultimately to graduate!
+
+The Unravel STACK section focuses on what is STACK, Question Behaviors in STACK, STACK features, how to create STACK exercises by accessing STACK Demo exercises
+
+STACK is a system for computer-aided assessment (CAA) in mathematics. It provides a specialized question type for the Moodle quiz. It is a great tool for teaching STEM subjects, and learning how to use it can create efficient and even time-saving exercises. Learn about how and when to use STACK, and - if your learning environment allows it - try it out yourself. See just how much you can do with it!
+
+In the Unlock the Potential of AI section, you will learn about AI tools, the practicality and ethics of it, how to use AI tools to shorten material preparation steps, how to use AI tools in general, as well as going through some prompts for using ChatGPT.
+
+ChatGPT stands for Chat Generative Pre-trained Transformer, enables users to refine and steer a conversation towards a desired length, format, style, level of detail, and language. Successive prompts and replies, known as prompt engineering, are considered at each conversation stage as a context.
+
+The Master Mathematics Software section focuses on the benefits and applications of using free mathematical software packages, highlighting their practicality, versatility, and impact on mathematical exploration and problem-solving, a general overview of some popular free mathematical software packages (such as GeoGebra, Latex and Mathematica Wolfram), highlighting their key features, capabilities, and user communities, how to use software GeoGebra as illustration and presentation tool, how to prepare animations and visualizations in GeoGebra environment, how to prepare quality instructional materials with proper layout of formulas in mathematics and physics by using Latex, how to use Computer Algebra System Mathematica Wolfram to develop animated applications, how to prepare interesting animations explaining basic mathematical concepts on applied problems. NOTE! This section is very large, and not all sofware is available in all HEIs, so focus on the tools most relevant to what you can and want to use in your own education.
+
+GeoGebra is a freeware dynamic mathematical software that is a useful tool to develop presentations including mathematical formulas alongside with their geometric representation in the form of live animations. In the following documents, one can get insight into GeoGebra environment and find the basic instructions how to use it for developing your own attractive demonstrations of mathematical concepts.
+
+Latex is a markup language for typesetting documents, a user-friendly extension of TeX, a set of macros built on top of TeX. Few basic introductory information pieces are provided in the following files, pointing to benefits of using this software for development of high quality instructional materials.
+
+MATHEMATICA WOLFRAM is a commercial software, but it offers university teachers and students many usefull applications available online for reduced prices or free.
+
+The courses on the DigiSTEM website are free and available to everyone under the creative commons licence.
+
+This project is funded by the Erasmus program and the European Union.
+
+The Coordinating University in charge of this project is Tampere University of Applied Sciences
+
+To learn about the use of mathemathical software in teaching, you should check out the free Teaching STEM Subjects Digitally course!
+
+This course was made by our team of experts mostly comprised of mathemathics teachers here at DigiSTEM.
+
+---------------------------------------------------------------------------------------------------
+
+The Pedagogy for Teaching STEM Subjects Digitally course is specifically designed to develop the pedagogical competences of teachers/lecturers/professors of STEM subjects in higher education institutions. It is a self-study course.
+
+The Pedagogy for Teaching STEM Subjects Digitally course consists of micro modules about the following topics: Best Pedagogical Practices of STEM Teachers, Active Learning and EduScrum Active Learning Method, Self-Regulation, Assessment, New Trends in Teaching Engineering Mathematics, The Use of Mathematical Software in Teaching
+
+The Embrace Best Pedagogical Practices of STEM Teachers topic focuses on what pedagogical practices other STEM teachers have used successfully. DigiSTEM project collected STEM teachers' perspectives of what they have found to be the pedagogical methods that work for them. This section brings these methods together - see if you are already doing these and if there is something new to learn!
+
+The Help Your Students Become Active Learners section focuses on: what is active learning and how to activate students. Here we will go over more practical methods for activating students and anter learning the concepts and medhots, make a concrete plan to activate students during a lesson - and then try it out in practice!
+
+Active learning is an approach that encapsulates different types of instructional methods, which engage students as active participants. The core principle of active learning is to activate and engage students to their own learning process (Prince, 2004). Collins and OÂ´Brien (2011) defined the term as follows:
+
+Some of the Methods for Activating Students covered in this course are eduScrum and SPRINT.
+
+The Give Your Students Tools for Self-Regulation section focuses on what self-regulation means in the context of education as well as methods for promoting students' self-regulated learning
+
+In the Give Your Students Tools for Self-Regulation section we will open the book about Self-Regulated Learning. After that, make a plan for promoting self-regulated learning in your courses - and try it out!
+
+The Enhance Your Assessment section focuses on various forms of assessment, how to prepare reliable and objective on-line tests, multiple-choice tests and their development and basics about new forms of assessments: flexible, continuous, versatile, alternative
+
+The Enhance Your Assessment section will go over a short description of the computer aided assessment and its various forms. While reading, you will think about your own assessment methods - what and how do you assess, followed by watching the video about how continuous and versatile assessment is done for STEM subjects at Tampere University of Applied Sciences.
+
+The Keep Up-to-Date with New Trends in Teaching Engineering Mathematics section focuses on new ideas on teaching mathematics in engineering education, what mathematical competencies are, why use visualizations and animations in teaching mathematics
+
+The Keep Up-to-Date with New Trends in Teaching Engineering Mathematics section covers the more lasting trends in education when it comes to teaching mathemathics, for example visualization and illustration of complex mathemathical concepts to students.
+
+Use Mathematical Software in Teaching section focuses on some of the available mathematical software, what are the challenges of integrating software into teaching and learning mathematics, how, when, and what software should be used for achieving expected results and learning outcomes and finally, the future trends and directions.
+
+The Use Mathemathical Software in Teaching section covers the articles written by DigiSTEM experts. It answers the questions: What mathematical software do you already use? What is available in your educational institution? What could be added?
+
+
+
+
